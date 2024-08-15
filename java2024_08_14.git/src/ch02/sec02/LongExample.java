@@ -7,8 +7,8 @@ public class LongExample {
         //long var3 = 1000000000; 에러
         long var3 = 1000000000L;
 
-        System.out.println(var1);
-        System.out.println(var2);
-        System.out.println(var3);
+        System.out.println(var1);//10
+        System.out.println(var2);//20
+        System.out.println(var3);//1000000000
     }
 }
