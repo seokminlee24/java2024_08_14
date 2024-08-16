@@ -2,11 +2,12 @@ package ch02.sec05;
 
 public class BooleanExample {
     public static void main(String[] args) {
-        boolean stop = true;
-        if (stop) {
-            System.out.println("중지합니다.");
+        int money = 900;
+        int busCard =  1000;
+        if (money > busCard) {
+            System.out.println("타고 갑니다");
         }else {
-            System.out.println("시작합니다.");
+            System.out.println("돈이 부족합니다");
         }
         int x = 10;
         boolean result1 = (x == 20); //x의 값은 20인가?
