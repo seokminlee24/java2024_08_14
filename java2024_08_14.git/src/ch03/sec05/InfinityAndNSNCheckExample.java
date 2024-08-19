@@ -11,7 +11,7 @@ public class InfinityAndNSNCheckExample {
 
         //알 맞는 코도
         if (Double.isInfinite(z)|| Double.isNaN(z)){
-            System.out.println("값 산출 불가");
+            System.out.println("값 산출 불가"); //Infinity,값 산출 불가
         }else{
             System.out.println(z + 2);
         }
