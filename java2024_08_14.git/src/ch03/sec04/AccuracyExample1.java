@@ -7,7 +7,7 @@ public class AccuracyExample1 {
         int number = 7;
 
         double result = apple - number*pieceUnit;
-        System.out.println("사과 1개에서 남은양 : " +result);
+        System.out.println("사과 1개에서 남은양 : " +result); //2.9
 
     }
 }
